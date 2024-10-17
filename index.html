@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="scores">
+        <h3 id="humanScore"></h3>
+        <h3 id="CompScore"></h3>
+    </div>
+    <div class="container">
+        <h3 id="winner">Choose YOU'RE PLAY</h3>
+        <img src="hand-paper.png" id="paper" onclick="clickedpaper()">
+        <img src="scissors.png" id="sci" onclick="clickedscissor()">
+        <img src="rock.png" id="rock" onclick="clickedrock()">
+    </div>
+    <h2 id="won"> helo</h2>
     
     <script src="logic.js"></script>
 </body>

@@ -1,0 +1,24 @@
+img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+} 
+i {
+    height: 100px;
+    width: 100px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.scores {
+    display: flex;
+    gap: 40px;
+}
+.container {
+    text-align: center;
+}
